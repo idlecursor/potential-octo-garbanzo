@@ -36,8 +36,8 @@ jobs:
           source: ./docs/
           destination: ./docs/_site
       - name: Upload artifact
-        working-directory: ./docs/
         uses: actions/upload-pages-artifact@v2
+        working-directory: ./docs/
 
   # Deployment job
   deploy:
