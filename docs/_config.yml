@@ -32,7 +32,7 @@ github_username:  jekyll
 # Build settings
 remote_theme: jekyll/minima
 minima:
-  skin: solarized-dark
+  skin: dark
   date_format: "%b %-d, %Y"
 plugins:
   - jekyll-feed
